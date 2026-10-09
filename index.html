@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheeryl Jolene Chetcha | Computer Science Student</title>
+  <meta name="description" content="Portfolio of Sheeryl Jolene Chetcha, a computer science student in Yaoundé interested in software engineering, data and AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Sheeryl Chetcha</a>
+    <nav aria-label="Main">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <h1>
+          <span>Sheeryl</span>
+          <span>Jolene</span>
+          <span>Chetcha</span>
+        </h1>
+        <p class="role">Computer science student in Yaoundé</p>
+        <p class="intro">I enjoy coding, building projects and learning how data can be used to solve problems. I am interested in software engineering, data and artificial intelligence.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="portrait">
+        <span aria-hidden="true">SJ</span>
+        <!-- Your photo: keep the file named exactly photo.jpeg, in the same folder as index.html -->
+        <img src="photo.jpeg" alt="Portrait of Sheeryl Jolene Chetcha" onerror="this.remove()">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+
+      <article class="feature">
+        <div class="feature-text">
+          <h3>Pickup: restaurant pre-order</h3>
+          <p>A mobile system where customers order and pay in advance, then collect at a time slot they choose. Payment is mandatory up front, so only confirmed orders reach the kitchen. That makes demand more predictable and the process more reliable.</p>
+          <p class="hint">Try the slots on the right. This is an illustration of the idea.</p>
+        </div>
+        <div class="feature-demo">
+          <div class="phone" aria-label="Illustration of the Pickup time slot screen">
+            <p class="phone-title">Choose a pickup time</p>
+            <div class="slots" id="slots" role="radiogroup" aria-label="Pickup time slots">
+              <button type="button" role="radio" aria-checked="false">12:00</button>
+              <button type="button" role="radio" aria-checked="false">12:15</button>
+              <button type="button" role="radio" aria-checked="false" disabled>12:30</button>
+              <button type="button" role="radio" aria-checked="false">12:45</button>
+              <button type="button" role="radio" aria-checked="false">13:00</button>
+              <button type="button" role="radio" aria-checked="false">13:15</button>
+            </div>
+            <p class="slot-note">Greyed-out slots are full.</p>
+            <button type="button" class="pay" id="pay" disabled>Select a time to pay</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="duo">
+        <article>
+          <h3>Computer-to-computer communication</h3>
+          <p>A simple WhatsApp-style messaging tool in Python, so two computers can talk to each other directly.</p>
+        </article>
+        <article>
+          <h3>Python chatbot</h3>
+          <p>A friendly chat program that answers everyday questions, such as "good morning" and "how did you sleep?".</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="block">
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <p class="when">June to August 2025</p>
+        <div>
+          <h3>IT intern, CAMPOST</h3>
+          <p class="where">Cameroon Postal Service, Yaoundé</p>
+          <ul>
+            <li>Completed a three-month internship focused on IT systems.</li>
+            <li>Learned virtualization: which hypervisor to use, how to install servers on it, and how a server communicates with many connected computers.</li>
+            <li>Learned how Active Directory manages computers and installs software across an organization.</li>
+            <li>Got hands-on exposure to FortiGate and how it shares internet access with other computers.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="entry">
+        <p class="when">2018 to 2020</p>
+        <div>
+          <h3>Summer STEM boot camps</h3>
+          <ol class="steps">
+            <li><strong>2018</strong> Learned Scratch, Python and Django. Built a small app inspired by ride-hailing services.</li>
+            <li><strong>2019</strong> Learned electronics, Arduino and embedded systems. Worked on an automatic tap prototype.</li>
+            <li><strong>2020</strong> Coordinated the boot camp, supporting teachers and students.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="block">
+      <h2>Education</h2>
+
+      <div class="entry">
+        <p class="when">2023 to 2025</p>
+        <div>
+          <h3>Computer Science</h3>
+          <p class="where">Pkfokam Institute of Excellence, Yaoundé</p>
+          <p>Two years of university coursework: Programming in C, Python Programming, Programming and Problem Solving, Discrete Mathematics, Calculus I to III, Data Structures, Database Systems, Web Development and Physics.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <p class="when">2022 to 2023</p>
+        <div>
+          <h3>GCE Advanced Level</h3>
+          <p class="where">Franky Comprehensive Secondary School, Yaoundé</p>
+        </div>
+      </div>
+      <div class="entry">
+        <p class="when">2020 to 2021</p>
+        <div>
+          <h3>GCE Ordinary Level</h3>
+          <p class="where">Franky Comprehensive Secondary School, Yaoundé</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Languages</h3>
+          <ul><li>Python</li><li>C</li><li>Java</li><li>HTML</li><li>CSS</li></ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul><li>Git and GitHub</li><li>Visual Studio Code</li><li>NetBeans</li><li>Scene Builder</li></ul>
+        </div>
+        <div>
+          <h3>Systems</h3>
+          <ul><li>Virtualization and VMware</li><li>Active Directory</li><li>FortiGate (hands-on exposure)</li></ul>
+        </div>
+        <div>
+          <h3>Working with others</h3>
+          <ul><li>Teamwork</li><li>Problem solving</li><li>Communication</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block contact">
+      <h2>Contact</h2>
+      <p class="contact-lead">Looking for a junior developer, an intern or a project partner? Send me a message.</p>
+      <dl class="contact-list">
+        <div>
+          <dt>Phone</dt>
+          <!-- EDIT: put your number in both the link and the text, e.g. href="tel:+237600000000" -->
+          <dd><a href="tel:+237 686 730 730">+237 686 730 730</a></dd>
+        </div>
+        <div>
+          <dt>Address</dt>
+          <!-- EDIT: put your address here -->
+          <dd>Yaounde - Ekounou</dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:sheeryljolenechetcha@gmail.com">sheeryljolenechetcha@gmail.com</a></dd>
+        </div>
+        <div>
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/sheeryljolenechetcha-cloud">github.com/sheeryljolenechetcha-cloud</a></dd>
+        </div>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Chetcha Sheeryl Jolene. Yaoundé, Cameroon.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
